@@ -1,6 +1,6 @@
 RoboLasso
 =========
 
-An extension wrapper for polygonSelectionTool, so you can have it launch on startup.
+An simple extension wrapper for polygonSelectionTool.
 
-Original work by Frederick Berlaen. Uses an icon by Alexander Lubovenko.
+PolygonSelectionTool by Frederik Berlaen. Icon by Alexander Lubovenko.
