@@ -23,6 +23,11 @@
 	<key>timeStamp</key>
 	<real>1440079762.128412</real>
 	<key>version</key>
-	<string>1.0</string>
+	<string>1.0.0</string>
+	<key>com.robofontmechanic.Mechanic</key>
+	<dict>
+		<key>repository</key>
+		<string>productiontype/RoboLasso</string>
+	</dict>
 </dict>
 </plist>
