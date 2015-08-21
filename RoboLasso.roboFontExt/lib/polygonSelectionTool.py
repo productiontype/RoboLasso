@@ -56,7 +56,7 @@ class PolygonSelectionTool(EditingTool):
         return "Lasso"
     
     def getToolbarIcon(self):
-        icon = NSImage.alloc().initWithContentsOfFile_("polygon-select.png")
+        icon = NSImage.alloc().initWithContentsOfFile_("RoboLassoIcon.pdf")
         if icon:
             return icon
         
