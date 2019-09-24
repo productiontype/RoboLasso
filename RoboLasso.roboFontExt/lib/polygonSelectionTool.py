@@ -3,6 +3,8 @@ from mojo.drawingTools import *
 from AppKit import NSImage
 from fontTools.pens.cocoaPen import CocoaPen
 
+toolbarIcon = NSImage.alloc().initByReferencingFile_("RoboLassoIcon.pdf")
+
 
 class PolygonSelectionTool(EditingTool):
 
@@ -57,9 +59,7 @@ class PolygonSelectionTool(EditingTool):
         return "Lasso"
 
     def getToolbarIcon(self):
-        icon = NSImage.alloc().initWithContentsOfFile_("RoboLassoIcon.pdf")
-        if icon:
-            return icon
+        return toolbarIcon
 
 
 installTool(PolygonSelectionTool())
